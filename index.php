@@ -296,7 +296,7 @@ $htmlc = <<<EOF
 			</section>
 		<!-- Footer -->
 			<footer id="footer">
-				<audio src="https://dn-lolistatic.qbox.me/%E5%A4%A2%E3%81%AE%E6%B2%B3.mp3" controls autoplay preload="metadata">浏览器过旧,请更换Firefox/Chrome</audio>
+				<audio src="https://dn-lolistatic.qbox.me/bg.mp3" controls autoplay preload="metadata">浏览器过旧,请更换Firefox/Chrome</audio>
 				<ul class="copyright">
 					<li>&copy; <a href="http://www.loacg.com/">Sendya</a> &amp <a href="https://loli.wiki/">Loli Wiki</a>. All rights reserved.</li><li>Assistant: <a href="http://nekosc.com/">Nekosc</a></li><li>Theme Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
