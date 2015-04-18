@@ -189,17 +189,10 @@ $htmlc = <<<EOF
 									<td align="center">54818</td>
 									<td align="center">AES-256-CFB</td>
 									<td align="center">21780</td>
-								  </tr>	
+								  </tr>
 								  <tr>
 									<td align="center" class="tb_hide">Hong Kong, China</td>
 									<td align="center">hk1.loli.help</td>
-									<td align="center">50432</td>
-									<td align="center">RC4-MD5</td>
-									<td align="center">test</td>
-								  </tr>	
-								  <tr>
-									<td align="center" class="tb_hide">Hong Kong, China</td>
-									<td align="center">hk2.loli.help</td>
 									<td align="center">50432</td>
 									<td align="center">RC4-MD5</td>
 									<td align="center">test</td>

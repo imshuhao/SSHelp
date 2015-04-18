@@ -120,13 +120,6 @@
 "remarks" : "Hong Kong, China"}
 ,
   {
-"server" : "hk2.loli.help",
-"server_port" : 50432,
-"password" : "test",
-"method" : "rc4-md5",
-"remarks" : "Hong Kong, China"}
-,
-  {
 "server" : "pe.loli.help",
 "server_port" : 55698,
 "password" : "86718",
