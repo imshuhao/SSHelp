@@ -33,9 +33,8 @@ $htmlc = <<<EOF
 						<li>
 						    <a href="">Download</a>
 						    <ul>
-						        <li><a href="download/sss.zip">Special Windows Client</a></li>
-						        <li><a href="download/ss.zip">Windows Client</a></li>
-						        <li><a href="download/SS-Android_2.6.5.apk">Android Client</a></li>
+						        <li><a href="download/sss.zip">Windows</a></li>
+						        <li><a href="download/SS-Android_2.6.5.apk">Android</a></li>
 						    </ul>
 						  </li>
 						<li>
