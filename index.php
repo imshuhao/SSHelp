@@ -9,6 +9,24 @@ $htmla = <<<EOF
 						<li><a href="help">Help</a></li>
 					</ul>
 				</nav>
+						<style>
+						    .large-header {
+						    position: relative;
+						    width: 100%;
+						    overflow: hidden;
+						    background-size: cover;
+						    background-position: center center;
+						    z-index: -1;
+}
+		</style>
+				<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+		        </div>
+		        <script src="js/TweenLite.min.js"></script>
+		        <script src="js/EasePack.min.js"></script>
+		        <script src="js/rAF.js"></script>
+		        <script src="js/demo-1.js"></script>
+		        <script src="js/jquery.min.js"></script>
 			</header>
 		<!-- Banner -->
 			<section id="banner">
@@ -19,6 +37,7 @@ $htmla = <<<EOF
 					</header>
 					<span class="image"><p>document.cookie = 'openSesame=loli.help'</p></span>
 				</div>
+				
 				<script src="https://s95.cnzz.com/z_stat.php?id=1254760097&web_id=1254760097" language="JavaScript"></script>
 			</section>
 EOF;
@@ -98,35 +117,7 @@ $htmlc = <<<EOF
 									<td align="center">YWI0ZjA5Mm</td>
 								  </tr>
                                 <!--End-->
-								  <tr>
-									<td align="center" class="tb_hide">Yokohama, Japan</td>
-									<td align="center">tk.loli.help</td>
-									<td align="center">50093</td>
-									<td align="center">RC4-MD5</td>
-									<td align="center">750331</td>
-								  </tr>
-								  <tr>
-									<td align="center" class="tb_hide">San Francisco, United States</td>
-									<td align="center">sc.loli.help</td>
-									<td align="center">50093</td>
-									<td align="center">RC4-MD5</td>
-									<td align="center">750331</td>
-								  </tr>
-								  <tr>
-									<td align="center" class="tb_hide">Fremont, United States</td>
-									<td align="center">kl.loli.help</td>
-									<td align="center">50093</td>
-									<td align="center">RC4-MD5</td>
-									<td align="center">750331</td>
-								  </tr>
-								  <tr>
-									<td align="center" class="tb_hide">France</td>
-									<td align="center">rf.loli.help</td>
-									<td align="center">50093</td>
-									<td align="center">RC4-MD5</td>
-									<td align="center">750331</td>
-								  </tr>
-								  <tr>
+                                  <tr>
 									<td align="center" class="tb_hide">Tokyo, Japan</td>
 									<td align="center">vu.loli.help</td>
 									<td align="center">50015</td>
@@ -160,27 +151,6 @@ $htmlc = <<<EOF
 									<td align="center">52726</td>
 									<td align="center">AES-256-CFB</td>
 									<td align="center">50723402</td>
-								  </tr>
-								  <tr>
-									<td align="center" class="tb_hide">Singapore</td>
-									<td align="center">sg.loli.help</td>
-									<td align="center">11650</td>
-									<td align="center">RC4-MD5</td>
-									<td align="center">18245268</td>
-								  </tr>
-								  <tr>
-									<td align="center" class="tb_hide">London, United Kingdom</td>
-									<td align="center">uk.loli.help</td>
-									<td align="center">11650</td>
-									<td align="center">RC4-MD5</td>
-									<td align="center">18245268</td>
-								  </tr>
-								  <tr>
-									<td align="center" class="tb_hide">Buffalo, United States</td>
-									<td align="center">ub.loli.help</td>
-									<td align="center">11650</td>
-									<td align="center">RC4-MD5</td>
-									<td align="center">18245268</td>
 								  </tr>
 								  <tr>
 									<td align="center" class="tb_hide">Tokyo, Japan</td>
@@ -289,6 +259,7 @@ $htmlc = <<<EOF
 		<!-- Footer -->
 			<footer id="footer">
 				<audio src="https://dn-lolistatic.qbox.me/bg.mp3" controls autoplay preload="metadata">浏览器过旧,请更换Firefox/Chrome</audio>
+				<p>Lolita, light of my life, fire of my loins. My sin, my soul.</p>
 				<ul class="copyright">
 					<li>&copy; <a href="http://www.loacg.com/">Sendya</a> &amp <a href="https://loli.wiki/">Loli Wiki</a>. All rights reserved.</li><li>Assistant: <a href="http://nekosc.com/">Nekosc</a></li><li>Theme Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
