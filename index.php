@@ -16,7 +16,7 @@ $htmla = <<<EOF
 						    overflow: hidden;
 						    background-size: cover;
 						    background-position: center center;
-						    z-index: -1;
+						    z-index: 0;
 }
 		</style>
 				<div id="large-header" class="large-header">
@@ -259,7 +259,7 @@ $htmlc = <<<EOF
 		<!-- Footer -->
 			<footer id="footer">
 				<audio src="https://dn-lolistatic.qbox.me/bg.mp3" controls autoplay preload="metadata">浏览器过旧,请更换Firefox/Chrome</audio>
-				<p>Lolita, light of my life, fire of my loins. My sin, my soul.</p>
+				<p><br><em>Lolita, light of my life, fire of my loins. My sin, my soul.</em></p>
 				<ul class="copyright">
 					<li>&copy; <a href="http://www.loacg.com/">Sendya</a> &amp <a href="https://loli.wiki/">Loli Wiki</a>. All rights reserved.</li><li>Assistant: <a href="http://nekosc.com/">Nekosc</a></li><li>Theme Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
