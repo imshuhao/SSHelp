@@ -1,18 +1,15 @@
 <?php
-$htmla = <<<EOF
+$fakehtml = <<<EOF
 <header id="header">
-<h1 id="logo"><a href="https://loli.wiki/">Loli Wiki</a></h1>
+<h1 id="logo"><a href="https://loli.wiki/ "target="_blank"Loli Wiki</a></h1>
 <nav id="nav">
 <ul>
 <li><a href="https://loli.help/" class="button special">Home</a></li>
-<li><a href="help/">Help</a></li>
+<li><a href="help"target="_blank">Help</a></li>
+<li><a href="http://tieba.loli.help/ "target="_blank">TiebaSign</a></li>
+<li><a href="http://music.loli.help/ "target="_blank">Music</a></li>
 </ul>
 </nav>
-<script src="js/TweenLite.min.js"></script>
-<script src="js/EasePack.min.js"></script>
-<script src="js/rAF.js"></script>
-<script src="js/demo-1.js"></script>
-<script src="js/jquery.min.js"></script>
 </header>
 <section id="banner">
 <div class="content">
@@ -24,18 +21,16 @@ $htmla = <<<EOF
 </div>
 </section>
 EOF;
-$htmlc = <<<EOF
-
-<!--script type="text/javascript">alert("The following node is temporarily unavailable：     nh.loli.help、nt.loli.help、nl.loli.help、nj.loli.help, 14:00 is expected to maintain complete");</script-->
-
+$truehtml = <<<EOF
 <header id="header">
-<h1 id="logo"><a href="https://loli.wiki/">Loli Wiki</a></h1>
+<h1 id="logo"><a href="https://loli.wiki/ "target="_blank">Loli Wiki</a></h1>
 <nav id="nav">
 <ul>
 <li><a href="https://loli.help/">Home</a></li>
 <li><a><del>Donate</del></a></li>
-<!--li><a href="download/sss.zip">Download</a></li-->
-<li><a href="help/" class="button special">Help</a></li>
+<li><a href="help/" class="button special" target="_blank">Help</a></li>
+<li><a href="http://tieba.loli.help/ "target="_blank">TiebaSign</a></li>
+<li><a href="http://music.loli.help/ "target="_blank">Music</a></li>
 </ul>
 </nav>
 </header>
@@ -68,17 +63,84 @@ Nice Job! Welcome to the "REAL" Internet.</p>
 <th align="center">Password</th>
 </tr>
 <tr>
-<td align="center" class="tb_hide">N/A</td>
-<td align="center">N/A</td>
-<td align="center">N/A</td>
-<td align="center">N/A</td>
-<td align="center">N/A</td>
+<td align="center" class="tb_hide">Hong Kong, China</td>
+<td align="center">hk.loli.help</td>
+<td align="center">50432</td>
+<td align="center">RC4-MD5</td>
+<td align="center">test</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Yokohama, Japan</td>
+<td align="center">tk.loli.help</td>
+<td align="center">50432</td>
+<td align="center">RC4-MD5</td>
+<td align="center">test</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Fremont, United States</td>
+<td align="center">fc.loli.help</td>
+<td align="center">50432</td>
+<td align="center">RC4-MD5</td>
+<td align="center">test</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">San Francisco, United States</td>
+<td align="center">sf.loli.help</td>
+<td align="center">50432</td>
+<td align="center">RC4-MD5</td>
+<td align="center">test</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Singapore</td>
+<td align="center">sg.loli.help</td>
+<td align="center">50015</td>
+<td align="center">RC4-MD5</td>
+<td align="center">16907</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Hong Kong, China</td>
+<td align="center">hc.loli.help</td>
+<td align="center">50015</td>
+<td align="center">RC4-MD5</td>
+<td align="center">16907</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Dallas, United States</td>
+<td align="center">da.loli.help</td>
+<td align="center">50015</td>
+<td align="center">RC4-MD5</td>
+<td align="center">16907</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Los Angeles, United States</td>
+<td align="center">lo.loli.help</td>
+<td align="center">50015</td>
+<td align="center">RC4-MD5</td>
+<td align="center">16907</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Phoenix, United States</td>
+<td align="center">za.loli.help</td>
+<td align="center">23097</td>
+<td align="center">AES-256-CFB</td>
+<td align="center">YWI0ZjA5Mm</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Washington, United States</td>
+<td align="center">wa.loli.help</td>
+<td align="center">8989</td>
+<td align="center">AES-256-CFB</td>
+<td align="center">6sFgvGU8f8</td>
+</tr>
+<tr>
+<td align="center" class="tb_hide">Los Angeles, United States</td>
+<td align="center">la.loli.help</td>
+<td align="center">43108</td>
+<td align="center">AES-256-CFB</td>
+<td align="center">odRVPumUmP</td>
 </tr>
 <tr class="old">
-<td align="center" colspan="5"><b>Warning! </b>Do not spread any node in public!</td>
-</tr>
-<tr class="old">
-<td align="center" colspan="5"><b>It is strictly forbidden to send out email through the server!</b></td>
+<td align="center" colspan="5"><b>Warning! </b>Do not spread any node in public!<b></br>It is strictly forbidden to send out email through the server!</b></td>
 </tr>
 </tbody>
 </table>
@@ -109,7 +171,7 @@ Nice Job! Welcome to the "REAL" Internet.</p>
 <audio src="https://dn-lolistatic.qbox.me/bg.mp3" controls autoplay preload="metadata">浏览器过旧,请更换Firefox/Chrome</audio>
 <p><br><em>Lolita, light of my life, fire of my loins. My sin, my soul.</em></p>
 <ul class="copyright">
-<li>&copy; <a href="http://www.loacg.com/">Sendya</a> &amp <a href="https://loli.wiki/">Loli Wiki</a>. All rights reserved.</li><li>Assistant: <a href="http://nekosc.com/">Nekosc</a></li><li>Theme Design: <a href="http://html5up.net">HTML5 UP</a></li>
+<li>&copy; <a href="http://www.loacg.com/"target="_blank">Sendya</a> &amp <a href="https://loli.wiki/"target="_blank">Loli Wiki</a>. All rights reserved.</li><li>Assistant: <a href="https://nekosc.com/"target="_blank">Ovrase</a></li><li>Theme Design: <a href="http://html5up.net"target="_blank">HTML5 UP</a></li>
 </ul>
 </footer>
 EOF;
@@ -149,7 +211,7 @@ EOF;
            ,,,     ,,:,::::::i:iiiii:i::::,, ::::iiiir@xingjief.r;7:i,
         , , ,,,:,,::::::::iiiiiiiiii:,:,:::::::::iiir;ri7vL77rrirri::
          :,, , ::::::::i:::i:::i:i::,,,,,:,::i:i:::iir;@Secbone.ii:::
-		 
+     
 -->
 <html>
 <head>
@@ -209,10 +271,71 @@ $('#country').html(data.country);
 </head>
 <body class="landing">
 <?php
-if($_COOKIE['openSesame']==null || $_COOKIE['openSesame']!="loli.help"){
-echo $htmla;
-} elseif ($_COOKIE['openSesame']=="loli.help"){
-echo $htmlc;
+/*
+function isCrawler() {
+        $agent= strtolower($_SERVER['HTTP_USER_AGENT']);
+        if (!empty($agent)) {
+                $spiderSite= array(
+                        "TencentTraveler",
+                        "Baiduspider+",
+                        "BaiduGame",
+                        "Googlebot",
+                        "msnbot",
+                        "Sosospider+",
+                        "Sogou web spider",
+                        "ia_archiver",
+                        "Yahoo! Slurp",
+                        "YoudaoBot",
+                        "Yahoo Slurp",
+                        "MSNBot",
+                        "Java (Often spam bot)",
+                        "BaiDuSpider",
+                        "Voila",
+                        "Yandex bot",
+                        "BSpider",
+                        "twiceler",
+                        "Sogou Spider",
+                        "Speedy Spider",
+                        "Google AdSense",
+                        "Heritrix",
+                        "Python-urllib",
+                        "Alexa (IA Archiver)",
+                        "Ask",
+                        "Exabot",
+                        "Custo",
+                        "OutfoxBot/YodaoBot",
+                        "yacy",
+                        "SurveyBot",
+                        "legs",
+                        "lwp-trivial",
+                        "Nutch",
+                        "StackRambler",
+                        "The web archive (IA Archiver)",
+                        "Perl tool",
+                        "MJ12bot",
+                        "Netcraft",
+                        "MSIECrawler",
+                        "WGet tools",
+                        "larbin",
+                        "Fish search",
+                );
+                foreach($spiderSite as $val) {
+                        $str = strtolower($val);
+                        if (strpos($agent, $str) !== false) {
+                                return true;
+                        }
+                }
+        } else {
+                return false;
+        }
+}*/
+function isCrawler() {
+    return false;
+}
+if ($_COOKIE['openSesame']=="loli.help" || isCrawler()){
+    echo $truehtml;
+} else{
+    echo $fakehtml;
 }
 ?>
 <div style="display:none"><script src="https://s95.cnzz.com/z_stat.php?id=1254760097&web_id=1254760097" language="JavaScript"></script></div>
