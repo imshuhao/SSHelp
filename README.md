@@ -2,10 +2,8 @@
 
 ###Public Shadowsocks Sharing Programme
 
-It is a website to help people bypass the Internet censorship and the Internet blockade.
+It is a website to publish internet proxy servers(e.g. Shadowsocks) to help users breakthough the Internet access restrictions and censorship(e.g. The Great Firewall of China).
 
-(e.g. The Great Firewall of China)
+Project Website: https://loli.help/ (No longer available)
 
-https://loli.help/
-
-(This project has been suspended.)
+(This project has been suspended (by force) due to Chinese Government Policy.)
